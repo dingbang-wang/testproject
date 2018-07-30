@@ -10,6 +10,7 @@ var users = require('./routes/users');
 // error handler
 onerror(app);
 
+
 // global middlewares
 app.use(views('views', {
   root: __dirname + '/views',
