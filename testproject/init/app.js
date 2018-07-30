@@ -7,7 +7,7 @@ var app = require('koa')()
 var index = require('./routes/index');
 var users = require('./routes/users');
 
-// error handler  1023
+// error handler  1023 develop v3
 onerror(app);
 
 // global middlewares
