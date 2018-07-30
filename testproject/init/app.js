@@ -7,9 +7,8 @@ var app = require('koa')()
 var index = require('./routes/index');
 var users = require('./routes/users');
 
-// error handler
+// error handler  1023
 onerror(app);
-
 
 // global middlewares
 app.use(views('views', {
