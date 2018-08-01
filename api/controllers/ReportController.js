@@ -7,7 +7,7 @@
 
 let Controller={
     Test: async function (req, res) {
-        console.log('abcdefg');
+        console.log('abcdefg123123');
         return res.ok({ result: 'success' });
     },
     Hello:async function(req,res){
