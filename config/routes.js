@@ -35,7 +35,7 @@ module.exports.routes = {
   // 'get /': { view: 'homepage' },
   'post /signup': 'AuthController.processSignup',
   'GET Test':{ controller: 'UserController', action: 'Test' },
-
+  'GET Test':{ controller: 'ReportController', action: 'Test' },
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
