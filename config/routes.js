@@ -34,10 +34,7 @@ module.exports.routes = {
 
   // 'get /': { view: 'homepage' },
   'post /signup': 'AuthController.processSignup',
-  'get /login': { view: 'portal/login' },
-  'post /login': 'AuthController.processLogin',
-  '/logout': 'AuthController.logout',
-  'get /me': 'UserController.profile'
+  'GET Test':{ controller: 'UserController', action: 'Test' },
 
   /***************************************************************************
   *                                                                          *

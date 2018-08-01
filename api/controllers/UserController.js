@@ -5,7 +5,10 @@
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
 
-module.exports = {
-	
-};
+let Controller={
+    Test: async function (req, res) {
+        return res.ok({ result: 'success' });
+    }
+}
+module.exports = Controller;
 
